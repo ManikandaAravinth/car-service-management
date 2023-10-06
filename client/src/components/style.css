@@ -1,0 +1,155 @@
+.carlogo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    color: #f9f6f6;
+}
+
+.homediv {
+    background-image: url("./home/home2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.registerdiv {
+    background-image: url("./register/Register.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logindiv {
+    background-image: url("./login/login.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.register {
+    max-width: 700px;
+    width: 100%;
+    background-color: #f9f6f6;
+    border-radius: 5px;
+    border: 1px solid black;
+    border: #70cef9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: #35ebfb;
+    position: relative;
+    top: 2rem;
+}
+
+.login {
+    max-width: 700px;
+    width: 100%;
+    background-color: #f9f6f6;
+    border-radius: 5px;
+    border: 1px solid black;
+    border: #2a526c;
+    color: #35ebfb;
+    background-color: transparent;
+    position: relative;
+    top: 4rem;
+}
+
+.field {
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border: #35ebfb;
+    color: #f9f6f6;
+}
+
+/* .fields {
+    background: transparent;
+    backdrop-filter: blur(4px);
+    color: #f9f6f6;
+} */
+
+input[type="text"] {
+    background: transparent;
+    outline: 0;
+    border: none;
+    color: whitesmoke;
+}
+
+input[type="email"] {
+    background: transparent;
+    outline: 0;
+    border: none;
+    color: whitesmoke;
+}
+
+input[type="password"] {
+    background: transparent;
+    outline: 0;
+    border: none;
+    color: whitesmoke;
+}
+
+/* Dashboard  */
+.dashboard {
+    background-image: linear-gradient(to right, rgb(116, 241, 243), gold);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.card,
+.card-body {
+    width: 18rem;
+    background: transparent;
+    border: none;
+}
+
+.spn1 {
+    color: rgb(255, 18, 18);
+}
+
+.spn2 {
+    color: black;
+}
+
+.spn3 {
+    color: rgb(13, 3, 70);
+}
+
+.card-cus-img {
+    height: 40vh;
+}
+
+.adminimg {
+    mix-blend-mode: difference;
+}
+
+.blue {
+    color: #35ebfb;
+}
+
+.sect {
+    height: 70vh;
+    width: 100%;
+}
+
+#contact {
+    background-image: linear-gradient(to right, rgb(116, 241, 243), gold);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.booking {
+    background-image: linear-gradient(to right, rgb(116, 241, 243), gold);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.enquiry {
+    border: 3px double black;
+}
